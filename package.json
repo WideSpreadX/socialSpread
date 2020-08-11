@@ -1,0 +1,29 @@
+{
+  "name": "socialspread",
+  "version": "1.0.0",
+  "description": "Everything Social",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WideSpreadX/socialSpread.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WideSpreadX/socialSpread/issues"
+  },
+  "homepage": "https://github.com/WideSpreadX/socialSpread#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mongoose": "^5.9.28"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
